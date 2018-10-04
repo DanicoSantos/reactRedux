@@ -1,0 +1,24 @@
+{
+  "name": "reactredux",
+  "version": "1.0.0",
+  "description": "An intro to react-redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanicoSantos/reactRedux.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "application"
+  ],
+  "author": "Dan Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanicoSantos/reactRedux/issues"
+  },
+  "homepage": "https://github.com/DanicoSantos/reactRedux#readme"
+}
