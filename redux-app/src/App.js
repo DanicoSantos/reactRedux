@@ -1,6 +1,9 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Posts from "../src/components/Post";
+import PostForm from "../src/components/Postform";
 
 class App extends Component {
   render() {
@@ -21,7 +24,9 @@ class App extends Component {
           </a>
         </header>
         <section id="posts">
-          
+          <PostForm />
+          <hr/>
+          <Posts />
         </section>
       </div>
     );
